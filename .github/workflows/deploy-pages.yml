@@ -1,0 +1,45 @@
+name: Deploy to GitHub Pages
+
+on:
+  # Re-deploy every push to the default branch
+  push:
+    branches: [master, main]
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: read         # to checkout the repo
+  pages: write           # to deploy to Pages
+  id-token: write        # to verify the deployment originates from the workflow
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: fluence-quiz-2
+
+      - name: Build site
+        run: npm run build
+        working-directory: fluence-quiz-2
+
+      # Upload the static files as an artifact so deploy-pages can access them
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: fluence-quiz-2/dist
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
