@@ -13,8 +13,6 @@ const HindiEnglishQuiz = () => {
   const [showResult, setShowResult] = useState(false);
   const [timeLeft, setTimeLeft] = useState(60);
   const [isCorrect, setIsCorrect] = useState(false);
-  const [musicEnabled, setMusicEnabled] = useState(true);
-  const [sfxEnabled, setSfxEnabled] = useState(true);
   const [playerName, setPlayerName] = useState('');
   const [lives, setLives] = useState(3);
   const [powerUps, setPowerUps] = useState({ skipQuestion: 2, extraTime: 2, fiftyFifty: 2 });
@@ -23,10 +21,10 @@ const HindiEnglishQuiz = () => {
   // Text-to-Speech states
   const [voice, setVoice] = useState(null);
   const [voices, setVoices] = useState([]);
-  const [pitch, setPitch] = useState(1);
-  const [rate, setRate] = useState(1);
-  const [volume, setVolume] = useState(1);
-  const [isPaused, setIsPaused] = useState(false);
+  const [_pitch, _setPitch] = useState(1);
+  const [_rate, _setRate] = useState(1);
+  const [_volume, _setVolume] = useState(1);
+  const [_isPaused, setIsPaused] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   
   // New states for the requested features
@@ -36,7 +34,7 @@ const HindiEnglishQuiz = () => {
   // Track if this is a student-specific quiz link
   const [isStudentQuiz, setIsStudentQuiz] = useState(false);
   // Track if we're in student quiz mode (after entering student name)
-  const [studentQuizMode, setStudentQuizMode] = useState(false);
+  const [_studentQuizMode, setStudentQuizMode] = useState(false);
   
   // Analytics tracking for AI-driven learning
   const [userPerformance, setUserPerformance] = useState({
@@ -62,7 +60,8 @@ const HindiEnglishQuiz = () => {
   });
   
   const timerRef = useRef(null);
-  const backgroundMusicRef = useRef(null);
+  // ref reserved for potential future background music feature (prefixed for ESLint)
+  const _backgroundMusicRef = useRef(null);
   const utteranceRef = useRef(null);
 
   // Add error state for question loading
@@ -70,6 +69,10 @@ const HindiEnglishQuiz = () => {
 
   const [questions, setQuestions] = useState([]);
   const [currentOptions, setCurrentOptions] = useState([]);
+
+  // Prefixed with _ to indicate intentional unused state variables (for future enhancements) and satisfy ESLint
+  const [_musicEnabled, _setMusicEnabled] = useState(true);
+  const [_sfxEnabled, _setSfxEnabled] = useState(true);
 
   // Load highest scores and user performance from localStorage on component mount
   useEffect(() => {
@@ -363,7 +366,8 @@ const HindiEnglishQuiz = () => {
     return insights;
   };
 
-  const generateAnalyticsReport = () => {
+  // Reserved for future: detailed analytics export
+  const _generateAnalyticsReport = () => {
     const totalQuestions = userPerformance.totalQuestions;
     const accuracy = totalQuestions > 0 ? (userPerformance.correctAnswers / totalQuestions * 100).toFixed(1) : 0;
     
@@ -467,13 +471,14 @@ const HindiEnglishQuiz = () => {
         case 'extraTime':
           setTimeLeft(prev => Math.min(prev + 30, 60));
           break;
-        case 'fiftyFifty':
+        case 'fiftyFifty': {
           // Remove two incorrect options
           const currentQ = questions[currentQuestion];
           const incorrectOptions = currentOptions.filter(opt => opt !== currentQ.correct);
           const optionsToRemove = incorrectOptions.slice(0, 2);
           setCurrentOptions(prev => prev.filter(opt => !optionsToRemove.includes(opt)));
           break;
+        }
       }
       
       setTimeout(() => setShowPowerUpEffect(''), 2000);
