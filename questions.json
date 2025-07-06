@@ -1,0 +1,687 @@
+[
+  {
+    "question": "Accountable for",
+    "correct": "To be responsible (जिम्मेदार होना / जवाबदेह होना)",
+    "options": [
+      "To be careless (लापरवाह होना)",
+      "To avoid responsibility (जिम्मेदारी से बचना)",
+      "To be responsible (जिम्मेदार होना / जवाबदेह होना)",
+      "To be promoted (पदोन्नत होना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Act On",
+    "correct": "To take action (अमल करना / कार्रवाई करना)",
+    "options": [
+      "To ignore (नज़रअंदाज़ करना)",
+      "To delay (देरी करना)",
+      "To take action (अमल करना / कार्रवाई करना)",
+      "To think about (विचार करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Act Out",
+    "correct": "To play or perform (अभिनय करना / प्रदर्शन करना)",
+    "options": [
+      "To hide feelings (भावनाएँ छिपाना)",
+      "To play or perform (अभिनय करना / प्रदर्शन करना)",
+      "To behave badly (खराब व्यवहार करना)",
+      "To observe silently (चुपचाप देखना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Act Up",
+    "correct": "To act/behave badly (खराब व्यवहार करना)",
+    "options": [
+      "To behave well (अच्छा व्यवहार करना)",
+      "To act/behave badly (खराब व्यवहार करना)",
+      "To be calm (शांत रहना)",
+      "To follow rules (नियमों का पालन करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Add Up",
+    "correct": "To make sense (तर्कसंगत लगना)",
+    "options": [
+      "To confuse (भ्रमित करना)",
+      "To subtract (घटाना)",
+      "To make sense (तर्कसंगत लगना)",
+      "To disagree (असहमत होना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Aim at",
+    "correct": "Intend to achieve something (लक्ष्य साधना)",
+    "options": [
+      "To avoid a target (लक्ष्य से बचना)",
+      "To miss (चूकना)",
+      "To shoot randomly (बेतरतीब ढंग से गोली मारना)",
+      "Intend to achieve something (लक्ष्य साधना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Allow For",
+    "correct": "To take into consideration / To consider (ध्यान में रखना / विचार करना)",
+    "options": [
+      "To ignore (अनदेखा करना)",
+      "To forget (भूल जाना)",
+      "To take into consideration / To consider (ध्यान में रखना / विचार करना)",
+      "To disallow (अनुमति न देना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Answer back",
+    "correct": "To reply/react rudely (प्रतिवाद करना)",
+    "options": [
+      "To answer politely (विनम्रता से जवाब देना)",
+      "To remain silent (चुप रहना)",
+      "To reply/react rudely (प्रतिवाद करना)",
+      "To ask a question (एक प्रश्न पूछना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Ask After",
+    "correct": "To inquire about well-being (हालचाल पूछना)",
+    "options": [
+      "To ask for help (मदद मांगना)",
+      "To avoid contact (संपर्क से बचना)",
+      "To inquire about well-being (हालचाल पूछना)",
+      "To give advice (सलाह देना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Ask for",
+    "correct": "To request (माँगना)",
+    "options": [
+      "To give (देना)",
+      "To demand (मांग करना)",
+      "To refuse (इनकार करना)",
+      "To request (माँगना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Ask Over",
+    "correct": "To invite (आमंत्रित करना)",
+    "options": [
+      "To send away (दूर भेजना)",
+      "To visit (मिलने जाना)",
+      "To invite (आमंत्रित करना)",
+      "To refuse an invitation (निमंत्रण अस्वीकार करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Attend To",
+    "correct": "To focus on (ध्यान देना)",
+    "options": [
+      "To ignore (अनदेखा करना)",
+      "To neglect (उपेक्षा करना)",
+      "To focus on (ध्यान देना)",
+      "To dismiss (खारिज करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Avail Of",
+    "correct": "To take advantage/benefit (लाभ/फायदा उठाना)",
+    "options": [
+      "To lose benefit (लाभ खोना)",
+      "To ignore opportunity (अवसर को अनदेखा करना)",
+      "To take advantage/benefit (लाभ/फायदा उठाना)",
+      "To create disadvantage (नुकसान पैदा करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Back Away",
+    "correct": "To withdraw from a position or commitment (किसी स्थिति या प्रतिबद्धता से पीछे हटना)",
+    "options": [
+      "To move forward (आगे बढ़ना)",
+      "To stand firm (दृढ़ रहना)",
+      "To withdraw from a position or commitment (किसी स्थिति या प्रतिबद्धता से पीछे हटना)",
+      "To support (समर्थन करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Back Down",
+    "correct": "To admit defeat (हार स्वीकार करना)",
+    "options": [
+      "To persist (दृढ़ रहना)",
+      "To win (जीतना)",
+      "To admit defeat (हार स्वीकार करना)",
+      "To fight back (जवाबी हमला करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Back Up",
+    "correct": "To support / To stand by (साथ देना)",
+    "options": [
+      "To oppose (विरोध करना)",
+      "To betray (धोखा देना)",
+      "To support / To stand by (साथ देना)",
+      "To leave alone (अकेला छोड़ देना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Bank On",
+    "correct": "To rely/depend on (निर्भर होना / भरोसा करना)",
+    "options": [
+      "To distrust (अविश्वास करना)",
+      "To be independent (स्वतंत्र होना)",
+      "To rely/depend on (निर्भर होना / भरोसा करना)",
+      "To ignore (अनदेखा करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Bear With",
+    "correct": "To bear / To cooperate (सहन करना / सहयोग करना)",
+    "options": [
+      "To refuse (इनकार करना)",
+      "To fight (लड़ना)",
+      "To bear / To cooperate (सहन करना / सहयोग करना)",
+      "To complain (शिकायत करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Beat up",
+    "correct": "To beat (पीटना)",
+    "options": [
+      "To praise (प्रशंसा करना)",
+      "To help (मदद करना)",
+      "To beat (पीटना)",
+      "To forgive (माफ करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Believe in",
+    "correct": "To have a belief (विश्वास करना)",
+    "options": [
+      "To doubt (संदेह करना)",
+      "To disbelieve (अविश्वास करना)",
+      "To have a belief (विश्वास करना)",
+      "To question (सवाल उठाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Bite Off",
+    "correct": "To cut using teeth (काट लेना)",
+    "options": [
+      "To chew gently (धीरे से चबाना)",
+      "To swallow whole (पूरा निगलना)",
+      "To cut using teeth (काट लेना)",
+      "To spit out (थूक देना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Blow Away",
+    "correct": "To defeat completely / To amaze (पूरी तरह परास्त कर देना / हैरान कर देना)",
+    "options": [
+      "To lose (हारना)",
+      "To bore (उबाना)",
+      "To defeat completely / To amaze (पूरी तरह परास्त कर देना / हैरान कर देना)",
+      "To underwhelm (प्रभावित न करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Blow Off",
+    "correct": "To ignore (नज़रअंदाज़ करना / उपेक्षा करना)",
+    "options": [
+      "To pay attention (ध्यान देना)",
+      "To acknowledge (स्वीकार करना)",
+      "To ignore (नज़रअंदाज़ करना / उपेक्षा करना)",
+      "To help (मदद करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "complexity_score": 2
+  },
+  {
+    "question": "Blow Out",
+    "correct": "To extinguish (बुझाना)",
+    "options": [
+      "To light (जलाना)",
+      "To inflate (फुलाना)",
+      "To extinguish (बुझाना)",
+      "To ignite (आग लगाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Blow Up",
+    "correct": "To explode / To destroy (उड़ा देना)",
+    "options": [
+      "To build (बनाना)",
+      "To repair (मरम्मत करना)",
+      "To explode / To destroy (उड़ा देना)",
+      "To deflate (हवा निकालना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Boil Down To",
+    "correct": "To be dependent on / To have reason for (निर्भर करना / कारण होना)",
+    "options": [
+      "To complicate (जटिल बनाना)",
+      "To be irrelevant (अप्रासंगिक होना)",
+      "To be dependent on / To have reason for (निर्भर करना / कारण होना)",
+      "To simplify (सरल बनाना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Break Down",
+    "correct": "To fail / To come to an end (विफल होना / खत्म हो जाना)",
+    "options": [
+      "To succeed (सफल होना)",
+      "To start (शुरू करना)",
+      "To fail / To come to an end (विफल होना / खत्म हो जाना)",
+      "To continue (जारी रखना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Break In / Break Into",
+    "correct": "To enter a building illegally (तोड़ कर घुसना / सेंध लगाना)",
+    "options": [
+      "To enter legally (कानूनी रूप से प्रवेश करना)",
+      "To exit (बाहर निकलना)",
+      "To build (निर्माण करना)",
+      "To enter a building illegally (तोड़ कर घुसना / सेंध लगाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Break Off",
+    "correct": "To stop suddenly (अचानक रुकना)",
+    "options": [
+      "To continue smoothly (सुचारू रूप से जारी रखना)",
+      "To join (जुड़ना)",
+      "To stop suddenly (अचानक रुकना)",
+      "To begin (शुरू करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Break Through",
+    "correct": "To succeed / To make a way (सफलता पाना / निकल जाना)",
+    "options": [
+      "To fail (विफल होना)",
+      "To block (रोकना)",
+      "To succeed / To make a way (सफलता पाना / निकल जाना)",
+      "To retreat (पीछे हटना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Break Up",
+    "correct": "To come to an end / To disperse (टूटना / तितर-बितर करना)",
+    "options": [
+      "To unite (एकजुट होना)",
+      "To gather (इकट्ठा होना)",
+      "To come to an end / To disperse (टूटना / तितर-बितर करना)",
+      "To begin (शुरू करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Bring Back",
+    "correct": "To refresh something / To return (ताज़ा कर देना / वापस लाना)",
+    "options": [
+      "To forget (भूल जाना)",
+      "To take away (दूर ले जाना)",
+      "To refresh something / To return (ताज़ा कर देना / वापस लाना)",
+      "To hide (छिपाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Bring Over",
+    "correct": "To bring from one place to another (किसी को एक स्थान से दूसरे स्थान लाना)",
+    "options": [
+      "To send away (दूर भेजना)",
+      "To leave behind (पीछे छोड़ना)",
+      "To bring from one place to another (किसी को एक स्थान से दूसरे स्थान लाना)",
+      "To ignore (अनदेखा करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Bring Up",
+    "correct": "To raise / To nurture (उठाना / पालन-पोषण करना)",
+    "options": [
+      "To lower (नीचा करना)",
+      "To neglect (उपेक्षा करना)",
+      "To raise / To nurture (उठाना / पालन-पोषण करना)",
+      "To suppress (दबाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Brush Off",
+    "correct": "To dismiss / To ignore (खारिज कर देना / नज़रअंदाज़ करना या टरका देना)",
+    "options": [
+      "To accept (स्वीकार करना)",
+      "To pay attention (ध्यान देना)",
+      "To dismiss / To ignore (खारिज कर देना / नज़रअंदाज़ करना या टरका देना)",
+      "To encourage (प्रोत्साहित करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Brush Up",
+    "correct": "To improve one's existing knowledge or skill (अपने मौजूदा ज्ञान या कौशल को निखारना)",
+    "options": [
+      "To forget (भूल जाना)",
+      "To worsen (खराब करना)",
+      "To improve one's existing knowledge or skill (अपने मौजूदा ज्ञान या कौशल को निखारना)",
+      "To start from scratch (शुरू से शुरू करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Build Into",
+    "correct": "To incorporate or add (शामिल करना या जोड़ना)",
+    "options": [
+      "To remove (हटाना)",
+      "To separate (अलग करना)",
+      "To incorporate or add (शामिल करना या जोड़ना)",
+      "To dismantle (अलग करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Bump Into",
+    "correct": "To meet unexpectedly (अचानक मुलाकात होना)",
+    "options": [
+      "To avoid (बचना)",
+      "To plan a meeting (एक बैठक की योजना बनाना)",
+      "To meet unexpectedly (अचानक मुलाकात होना)",
+      "To lose contact (संपर्क खोना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Burn Down",
+    "correct": "To be destroyed by fire (जलकर खाक होना)",
+    "options": [
+      "To build (बनाना)",
+      "To extinguish (बुझाना)",
+      "To be destroyed by fire (जलकर खाक होना)",
+      "To renovate (नवीनीकरण करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Burn Out",
+    "correct": "To be exhausted / To be extremely tired (ख़त्म हो जाना / थक चुका होना)",
+    "options": [
+      "To be energized (ऊर्जावान होना)",
+      "To begin (शुरू करना)",
+      "To be exhausted / To be extremely tired (ख़त्म हो जाना / थक चुका होना)",
+      "To recover (ठीक होना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Call Back",
+    "correct": "To phone back / To ask for return (वापस फोन करना / वापस बुलाना)",
+    "options": [
+      "To hang up (फोन काटना)",
+      "To ignore a call (कॉल को अनदेखा करना)",
+      "To phone back / To ask for return (वापस फोन करना / वापस बुलाना)",
+      "To call forward (आगे फोन करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Butt In",
+    "correct": "To interrupt (बाधा डालना)",
+    "options": [
+      "To listen patiently (धैर्यपूर्वक सुनना)",
+      "To remain silent (शांत रहना)",
+      "To interrupt (बाधा डालना)",
+      "To agree (सहमत होना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  },
+  {
+    "question": "Burst Out",
+    "correct": "To suddenly erupt (अचानक फूट पड़ना)",
+    "options": [
+      "To control emotions (भावनाओं को नियंत्रित करना)",
+      "To slowly begin (धीरे-धीरे शुरू करना)",
+      "To suddenly erupt (अचानक फूट पड़ना)",
+      "To hide feelings (भावनाएँ छिपाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Call In",
+    "correct": "To make a phone call / To ask someone to come (कॉल करना / बुलाना)",
+    "options": [
+      "To go out (बाहर जाना)",
+      "To leave (छोड़ना)",
+      "To make a phone call / To ask someone to come (कॉल करना / बुलाना)",
+      "To ignore (अनदेखा करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Call Off",
+    "correct": "To cancel an event (फैसला वापस लेना / रद्द करना)",
+    "options": [
+      "To start an event (एक कार्यक्रम शुरू करना)",
+      "To postpone (स्थगित करना)",
+      "To cancel an event (फैसला वापस लेना / रद्द करना)",
+      "To continue (जारी रखना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Call Up",
+    "correct": "To make a phone call / To bring back memories (कॉल करना / याद ताजा करना)",
+    "options": [
+      "To hang up (फोन काटना)",
+      "To forget (भूल जाना)",
+      "To make a phone call / To bring back memories (कॉल करना / याद ताजा करना)",
+      "To delete (मिटाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Calm Down",
+    "correct": "To make less nervous / To relax (शांत करना)",
+    "options": [
+      "To get agitated (घबराना)",
+      "To become excited (उत्तेजित होना)",
+      "To make less nervous / To relax (शांत करना)",
+      "To provoke (भड़काना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Care For",
+    "correct": "To be concerned about (परवाह करना)",
+    "options": [
+      "To neglect (उपेक्षा करना)",
+      "To dislike (नापसंद करना)",
+      "To be concerned about (परवाह करना)",
+      "To ignore (अनदेखा करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 1
+  },
+  {
+    "question": "Carry Away",
+    "correct": "To take away / To be mesmerized (बहा ले जाना / मंत्रमुग्ध होना)",
+    "options": [
+      "To bring back (वापस लाना)",
+      "To resist (विरोध करना)",
+      "To take away / To be mesmerized (बहा ले जाना / मंत्रमुग्ध होना)",
+      "To become bored (ऊब जाना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "Phrasal Verbs",
+    "complexity_score": 2
+  }
+]

@@ -1,0 +1,898 @@
+[
+  {
+    "question": "What is the main idea of 'Unity in Diversity'?",
+    "correct": "Many different things coming together as one.",
+    "options": [
+      "Everyone must be the same.",
+      "Many different things coming together as one.",
+      "Diversity causes problems.",
+      "Only one type of culture is important."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "According to the text, what is the first thing that strikes visitors to India?",
+    "correct": "India's rich diversity.",
+    "options": [
+      "The beautiful landscapes.",
+      "The ancient buildings.",
+      "The friendly people.",
+      "India's rich diversity."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "If you travel through India by train, what changes might you notice?",
+    "correct": "Different types of dresses, food, languages, and scripts.",
+    "options": [
+      "Only the types of animals.",
+      "Just the weather.",
+      "Different types of dresses, food, languages, and scripts.",
+      "Only the names of cities."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What organization conducted the 'People of India project' survey?",
+    "correct": "The Anthropological Survey of India.",
+    "options": [
+      "The Indian Census Bureau.",
+      "The National Geographic Society.",
+      "The Anthropological Survey of India.",
+      "The Ministry of Culture."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "How many languages were counted in the 'People of India project' survey?",
+    "correct": "325 languages.",
+    "options": [
+      "100 languages.",
+      "50 languages.",
+      "325 languages.",
+      "Over 1000 languages."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What are 'staple grains' in India?",
+    "correct": "Basic food grains like rice, barley, and wheat used by most Indians.",
+    "options": [
+      "Spices used in cooking.",
+      "Basic food grains like rice, barley, and wheat used by most Indians.",
+      "Fruits grown in India.",
+      "Special dishes for festivals."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "Which of these are examples of common cereals mentioned in the text?",
+    "correct": "Rice, barley, and wheat.",
+    "options": [
+      "Maize and gram.",
+      "Rajma and chickpea.",
+      "Rice, barley, and wheat.",
+      "Millet and jowar."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "Which of these are examples of pulses mentioned in the text?",
+    "correct": "Various kinds of dals and rajma.",
+    "options": [
+      "Rice and wheat.",
+      "Turmeric and ginger.",
+      "Various kinds of dals and rajma.",
+      "Sorghum and finger millet."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is common about the use of spices like turmeric, cumin, cardamom, and ginger in India?",
+    "correct": "They are used throughout the country.",
+    "options": [
+      "They are only used in northern India.",
+      "They are very rare.",
+      "They are used throughout the country.",
+      "They are only used in sweet dishes."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "How does food in India show 'unity in diversity'?",
+    "correct": "The same ingredients are used in many different combinations to prepare endless varieties of dishes.",
+    "options": [
+      "All Indian food tastes the same.",
+      "Different ingredients are always used in different regions.",
+      "The same ingredients are used in many different combinations to prepare endless varieties of dishes.",
+      "Food is only eaten during festivals."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is a common traditional Indian dress mentioned that shows commonality across regions?",
+    "correct": "The sari.",
+    "options": [
+      "The salwar kameez.",
+      "The dhoti.",
+      "The sari.",
+      "The kurta pajama."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What materials are saris mostly made from?",
+    "correct": "Cotton or silk, and sometimes synthetic fabrics.",
+    "options": [
+      "Wool and leather.",
+      "Linen and denim.",
+      "Cotton or silk, and sometimes synthetic fabrics.",
+      "Nylon and jute."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "Which of these are famous types of silk saris mentioned?",
+    "correct": "Banarasi, Kanjivaram, Paithani, Patan Patola, Muga, or Mysore.",
+    "options": [
+      "Denim, Linen, Khadi.",
+      "Banarasi, Kanjivaram, Paithani, Patan Patola, Muga, or Mysore.",
+      "Velvet, Rayon, Polyester.",
+      "Brocade, Georgette, Chiffon."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is 'chintz' and why was it banned in Europe in the 17th century?",
+    "correct": "A beautiful type of printed cotton from India, banned to protect European products.",
+    "options": [
+      "A type of European silk, banned due to high cost.",
+      "A beautiful type of printed cotton from India, banned to protect European products.",
+      "A type of Indian spice, banned for health reasons.",
+      "A European fabric, banned for being unfashionable."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "What is unique about how saris are worn in India?",
+    "correct": "There are many ways of wearing them, varying by region or community.",
+    "options": [
+      "There is only one way to wear a sari.",
+      "All saris are worn the same way everywhere.",
+      "They are only worn during special occasions.",
+      "There are many ways of wearing them, varying by region or community."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is the meaning of 'Relief' in the context of stone carving?",
+    "correct": "A design that stands out from the surface of a panel.",
+    "options": [
+      "A flat drawing on a surface.",
+      "A design that is carved inwards.",
+      "A design that stands out from the surface of a panel.",
+      "A type of paint used on stone."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is Makara Sankranti?",
+    "correct": "A festival that marks the beginning of the harvest season in many parts of India.",
+    "options": [
+      "A festival celebrating spring flowers.",
+      "A festival that marks the beginning of the harvest season in many parts of India.",
+      "A festival celebrating the end of summer.",
+      "A festival for planting seeds."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "When is Makara Sankranti generally celebrated?",
+    "correct": "On or around January 14.",
+    "options": [
+      "During October-November.",
+      "On or around January 14.",
+      "In March.",
+      "In August."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What does the map on page 8 show about festivals?",
+    "correct": "Different names of similar festivals celebrated across India about the same date.",
+    "options": [
+      "Only religious festivals.",
+      "Only regional festivals.",
+      "Different names of similar festivals celebrated across India about the same date.",
+      "The oldest festivals in India."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "How does literature illustrate unity in diversity in India?",
+    "correct": "Indian literatures share important themes and concerns despite language differences.",
+    "options": [
+      "All Indian literature is written in the same language.",
+      "Indian literatures share important themes and concerns despite language differences.",
+      "Indian literature is very limited.",
+      "Only ancient texts show unity."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is the Panchatantra?",
+    "correct": "A collection of stories with animals as main characters that teach life skills.",
+    "options": [
+      "A historical book about ancient India.",
+      "A collection of poems about heroes.",
+      "A collection of stories with animals as main characters that teach life skills.",
+      "A book about Indian festivals."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "How old is the original Sanskrit text of the Panchatantra?",
+    "correct": "At least 2,200 years old.",
+    "options": [
+      "500 years old.",
+      "100 years old.",
+      "At least 2,200 years old.",
+      "Recently written."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "How many adaptations of the Panchatantra are estimated to exist in over 50 languages?",
+    "correct": "About 200 adaptations.",
+    "options": [
+      "Around 50 adaptations.",
+      "Over 1000 adaptations.",
+      "About 200 adaptations.",
+      "Only a few adaptations."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "What are India's two most striking epics?",
+    "correct": "The Ramayana and the Mahabharata.",
+    "options": [
+      "The Vedas and the Upanishads.",
+      "The Ramayana and the Mahabharata.",
+      "The Bhagavad Gita and the Puranas.",
+      "The Jataka Tales and the Hitopadesha."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is an 'Epic' as defined in the text?",
+    "correct": "A long poem generally narrating the adventures of heroes and other great figures of the past.",
+    "options": [
+      "A short story about animals.",
+      "A long poem generally narrating the adventures of heroes and other great figures of the past.",
+      "A collection of riddles.",
+      "A historical document."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What do the Ramayana and Mahabharata narrate stories about?",
+    "correct": "Heroes who fight to re-establish dharma.",
+    "options": [
+      "Everyday life in ancient India.",
+      "Travels across the world.",
+      "Heroes who fight to re-establish dharma.",
+      "Scientific discoveries."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "Who are the main characters in the Mahabharata?",
+    "correct": "The Pandavas and the Kauravas.",
+    "options": [
+      "Rama and Sita.",
+      "Krishna and Hanuman.",
+      "The Pandavas and the Kauravas.",
+      "Ravana and Lakshmana."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "Who kidnapped Sita in the Ramayana?",
+    "correct": "The demon Ravana.",
+    "options": [
+      "Hanuman.",
+      "Lakshmana.",
+      "The demon Ravana.",
+      "Krishna."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What did the anthropologist K.S. Singh observe about the Mahabharata in India's folklore?",
+    "correct": "There is hardly a place in the country which the epic heroes did not visit.",
+    "options": [
+      "It is only known in South India.",
+      "It is a very rare story.",
+      "There is hardly a place in the country which the epic heroes did not visit.",
+      "It has only one version."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "How do Indian classical arts reflect unity and diversity?",
+    "correct": "Both diversity and underlying unity are easily noticeable.",
+    "options": [
+      "They only show unity.",
+      "They only show diversity.",
+      "They only focus on modern themes.",
+      "Both diversity and underlying unity are easily noticeable."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "According to the text, what enriches India?",
+    "correct": "Diversity.",
+    "options": [
+      "Uniformity.",
+      "Conflict.",
+      "Poverty.",
+      "Diversity."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "Who said, \"India offers unity in diversity\"?",
+    "correct": "The British historian Vincent Smith.",
+    "options": [
+      "Rabindranath Tagore.",
+      "Sri Aurobindo.",
+      "Jawaharlal Nehru.",
+      "The British historian Vincent Smith."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is the core belief of India regarding diversity?",
+    "correct": "Diversity is an enrichment and is nourished by underlying unity.",
+    "options": [
+      "Diversity should be eliminated.",
+      "Diversity weakens the country.",
+      "Diversity is an enrichment and is nourished by underlying unity.",
+      "Diversity is only a recent phenomenon."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is the meaning of 'Swabhava' and 'Swadharma' in the context of India's unity in diversity?",
+    "correct": "India's own nature and its fundamental course of being.",
+    "options": [
+      "Religious practices and rituals.",
+      "Economic growth and development.",
+      "India's own nature and its fundamental course of being.",
+      "Political systems and governance."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 4
+  },
+  {
+    "question": "Which poet prayed, 'Oh, grant me my prayer, that I may never lose the bliss of the touch of the one in the play of the many'?",
+    "correct": "Rabindranath Tagore.",
+    "options": [
+      "Sri Aurobindo.",
+      "Jawaharlal Nehru.",
+      "Rabindranath Tagore.",
+      "Vincent Smith."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "How did ancient Indian epics influence illiterate villagers, according to Jawaharlal Nehru?",
+    "correct": "Villagers knew hundreds of verses by heart and their conversation was full of references to them.",
+    "options": [
+      "Villagers could not understand the epics.",
+      "Villagers had no interest in the epics.",
+      "Villagers knew hundreds of verses by heart and their conversation was full of references to them.",
+      "Epics were only for scholars."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is a 'folk version' of an epic?",
+    "correct": "Stories passed down through generations in local communities, often with unique adaptations.",
+    "options": [
+      "The original written text of an epic.",
+      "A movie adaptation of an epic.",
+      "Stories passed down through generations in local communities, often with unique adaptations.",
+      "A modern interpretation in English."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What kind of patterns are shown in the stone carvings on page 1 of the document?",
+    "correct": "Intricate geometric and natural patterns.",
+    "options": [
+      "Modern art patterns.",
+      "Simple line drawings.",
+      "Intricate geometric and natural patterns.",
+      "Abstract shapes only."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is meant by 'Many in the One'?",
+    "correct": "The idea that diversity exists within a single unified entity.",
+    "options": [
+      "Having only one opinion.",
+      "The idea that diversity exists within a single unified entity.",
+      "Focusing on individual differences only.",
+      "A mathematical concept."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What does 'Dharma' refer to in the context of Indian epics?",
+    "correct": "Righteousness, duty, and moral values.",
+    "options": [
+      "A type of weapon.",
+      "A specific kingdom.",
+      "Righteousness, duty, and moral values.",
+      "A magical power."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "Besides classical architecture, what other Indian classical art form is mentioned as showing unity and diversity?",
+    "correct": "Classical arts (in general), including dance.",
+    "options": [
+      "Modern sculpture.",
+      "Contemporary painting.",
+      "Classical arts (in general), including dance.",
+      "Street art."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "Which tribal communities are mentioned as having their own versions of the Ramayana and Mahabharata?",
+    "correct": "Bhils, Gonds, and Mundas.",
+    "options": [
+      "Santha, Oraon, and Garo.",
+      "Bhils, Gonds, and Mundas.",
+      "Naga, Kuki, and Mizo.",
+      "Toda, Kota, and Chenchu."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "How were tribal adaptations of the epics often transmitted?",
+    "correct": "Orally, along with legends.",
+    "options": [
+      "Through written books.",
+      "Through official records.",
+      "Orally, along with legends.",
+      "Through ancient carvings only."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is the significance of the stone carving 'Pancha Pandavar' in the Nilgiris?",
+    "correct": "It commemorates the Pandavas passing through the area, maintained by Irula tribals.",
+    "options": [
+      "It is a natural rock formation.",
+      "It is a modern art installation.",
+      "It commemorates the Pandavas passing through the area, maintained by Irula tribals.",
+      "It marks the location of a battle."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "What is Rabindranath Tagore known for, as hinted by the text?",
+    "correct": "His philosophical and spiritual insights on unity.",
+    "options": [
+      "Being a famous historian.",
+      "Being a freedom fighter.",
+      "Being a famous explorer.",
+      "His philosophical and spiritual insights on unity."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What does the phrase 'dense web of cultural interactions' refer to regarding the epics?",
+    "correct": "The extensive spread and influence of the Ramayana and Mahabharata across India and Asia over centuries.",
+    "options": [
+      "A type of spider web found in ancient ruins.",
+      "A small collection of stories.",
+      "The extensive spread and influence of the Ramayana and Mahabharata across India and Asia over centuries.",
+      "A limited cultural exchange."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "Why did Vincent Smith wonder how a history of India could be written?",
+    "correct": "Because of India's bewildering diversity.",
+    "options": [
+      "Because India had no history.",
+      "Because India was too small.",
+      "Because of India's bewildering diversity.",
+      "Because he disliked India."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is one example of how women in South India creatively use the sari beyond a dress?",
+    "correct": "Carrying children or fetching water.",
+    "options": [
+      "Using it as a flag.",
+      "Using it as a tent.",
+      "Carrying children or fetching water.",
+      "Using it as a fishing net."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "The concept of 'unity in diversity' has always been 'normal' to which country?",
+    "correct": "India.",
+    "options": [
+      "China.",
+      "Europe.",
+      "India.",
+      "Africa."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "The 'People of India project' also observed that many Indians may be called migrants in what sense?",
+    "correct": "People not living near their birthplace or with their original community.",
+    "options": [
+      "People who travel for vacations.",
+      "People who live in the same place their whole life.",
+      "People not living near their birthplace or with their original community.",
+      "People who speak many languages."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is the total world population percentage inhabited by India?",
+    "correct": "About 18 percent.",
+    "options": [
+      "5 percent.",
+      "10 percent.",
+      "18 percent.",
+      "25 percent."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is one of the practical uses of the sari shown in the images, besides being a dress?",
+    "correct": "As a makeshift cradle or carrying sling.",
+    "options": [
+      "As a cooking utensil.",
+      "As a musical instrument.",
+      "As a makeshift cradle or carrying sling.",
+      "As a decorative flag."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "How many pages might the original versions of the Ramayana and Mahabharata fill together?",
+    "correct": "Some 7,000 pages.",
+    "options": [
+      "Around 100 pages.",
+      "A few hundred pages.",
+      "Some 7,000 pages.",
+      "Over 10,000 pages."
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 3
+  },
+  {
+    "question": "What distinguishes the sari as a symbol of unity in Indian clothing?",
+    "correct": "It is a plain length of unstitched cloth worn in most parts of India despite variations.",
+    "options": [
+      "It is always made of silk.",
+      "It is worn only in one specific region.",
+      "It is a plain length of unstitched cloth worn in most parts of India despite variations.",
+      "It has only one design."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What happens to the colors used in textiles, according to the text?",
+    "correct": "There are endless variations produced from many kinds of pigments.",
+    "options": [
+      "Colors are limited to only a few shades.",
+      "Colors are not important.",
+      "There are endless variations produced from many kinds of pigments.",
+      "Only natural dyes are used."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "From where does the stone relief of a woman in a sari, mentioned in the text, originate?",
+    "correct": "Vaishali (today in Bihar).",
+    "options": [
+      "Delhi.",
+      "Mumbai.",
+      "Vaishali (today in Bihar).",
+      "Kolkata."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What are some of the other common food items, besides grains, spices, and pulses, that are widely used in India?",
+    "correct": "Common vegetables and common oils.",
+    "options": [
+      "Only fruits.",
+      "Only dairy products.",
+      "Common vegetables and common oils.",
+      "Only sweets."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is the full form of BCE?",
+    "correct": "Before Common Era",
+    "options": [
+      "Before Christ's Epoch",
+      "Before Current Events",
+      "Before Common Era",
+      "British Colonial Empire"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "The diversity of India is so vast that even within your own region, you might find people from other parts of India with different what?",
+    "correct": "Customs and traditions.",
+    "options": [
+      "Same language.",
+      "Same food.",
+      "Customs and traditions.",
+      "Same dress."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "What is the rough percentage of the world's population that India inhabits?",
+    "correct": "About 18 percent.",
+    "options": [
+      "5 percent.",
+      "10 percent.",
+      "18 percent.",
+      "25 percent."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What can you infer about 'migrants' in India from the text?",
+    "correct": "They are people not living near their birthplace or with their original community.",
+    "options": [
+      "They are people who travel only for vacations.",
+      "They are people who live in the same place their whole life.",
+      "They are people not living near their birthplace or with their original community.",
+      "They are people who only speak foreign languages."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "Which ancient Indian literature is known for its stories teaching important life skills through animal characters?",
+    "correct": "The Panchatantra.",
+    "options": [
+      "The Vedas.",
+      "The Upanishads.",
+      "The Panchatantra.",
+      "The Puranas."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  },
+  {
+    "question": "How did the stories of the Panchatantra travel beyond India?",
+    "correct": "They travelled to Southeast Asia, the Arab world, and Europe.",
+    "options": [
+      "They only stayed within India.",
+      "They travelled to Southeast Asia, the Arab world, and Europe.",
+      "They only went to Africa.",
+      "They reached only one other country."
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 2
+  },
+  {
+    "question": "What is an 'unstitched piece of cloth' in the context of Indian clothing that comes in hundreds of varieties?",
+    "correct": "Sari.",
+    "options": [
+      "Shirt.",
+      "Trousers.",
+      "Sari.",
+      "Jacket."
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "ssch8",
+    "complexity_score": 1
+  }
+]
