@@ -1,19 +1,21 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Re-deploy every push to the default branch
   push:
-    branches: [master, main]
-  # Allow manual runs from the Actions tab
+    branches: [ main ]
   workflow_dispatch:
 
 permissions:
-  contents: read         # to checkout the repo
-  pages: write           # to deploy to Pages
-  id-token: write        # to verify the deployment originates from the workflow
+  contents: read      # to checkout the repository
+  pages: write        # to deploy to GitHub Pages
+  id-token: write     # to verify the deployment originates from the workflow
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -33,13 +35,21 @@ jobs:
         run: npm run build
         working-directory: fluence-quiz-2
 
-      # Upload the static files as an artifact so deploy-pages can access them
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: fluence-quiz-2/dist
 
-      # Deploy to GitHub Pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
