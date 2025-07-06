@@ -1,0 +1,842 @@
+[
+  {
+    "question": "Absorbed",
+    "correct": "completely focused on something (मग्न/लीन)",
+    "options": [
+      "not interested (दिलचस्पी नहीं)",
+      "partially focused (आंशिक रूप से केंद्रित)",
+      "completely focused on something (मग्न/लीन)",
+      "distracted easily (आसानी से विचलित)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Ancient",
+    "correct": "very old (प्राचीन)",
+    "options": [
+      "new and modern (नया और आधुनिक)",
+      "from the middle ages (मध्य युग से)",
+      "very old (प्राचीन)",
+      "recently built (हाल ही में बना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Antagonist",
+    "correct": "the main enemy or opponent (विरोधी/खलनायक)",
+    "options": [
+      "the main character (मुख्य पात्र)",
+      "a supportive friend (एक सहायक दोस्त)",
+      "the main enemy or opponent (विरोधी/खलनायक)",
+      "a neutral observer (एक तटस्थ दर्शक)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Barely",
+    "correct": "hardly, almost not (मुश्किल से)",
+    "options": [
+      "easily and clearly (आसानी से और स्पष्ट रूप से)",
+      "with great effort (बहुत प्रयास से)",
+      "hardly, almost not (मुश्किल से)",
+      "completely and fully (पूरी तरह से)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Bustling",
+    "correct": "full of activity (हलचल भरा)",
+    "options": [
+      "quiet and peaceful (शांत और शांतिपूर्ण)",
+      "full of activity (हलचल भरा)",
+      "empty and deserted (खाली और सुनसान)",
+      "slow-moving (धीमी गति वाला)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Captured",
+    "correct": "trapped or caught (कैद किया गया)",
+    "options": [
+      "released or set free (रिहा या आज़ाद किया गया)",
+      "trapped or caught (कैद किया गया)",
+      "escaped successfully (सफलतापूर्वक भाग निकला)",
+      "observed from a distance (दूर से देखा गया)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Cerulean",
+    "correct": "a shade of blue (नीला रंग)",
+    "options": [
+      "a shade of green (हरा रंग)",
+      "a shade of red (लाल रंग)",
+      "a shade of blue (नीला रंग)",
+      "a shade of yellow (पीला रंग)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Chaos",
+    "correct": "complete disorder (अराजकता)",
+    "options": [
+      "perfect order (पूर्ण व्यवस्था)",
+      "complete disorder (अराजकता)",
+      "a calm situation (एक शांत स्थिति)",
+      "a planned event (एक नियोजित घटना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Communicate",
+    "correct": "to talk or share information (संवाद करना)",
+    "options": [
+      "to keep silent (चुप रहना)",
+      "to hide information (जानकारी छिपाना)",
+      "to talk or share information (संवाद करना)",
+      "to listen only (केवल सुनना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Companion",
+    "correct": "friend who accompanies you (साथी)",
+    "options": [
+      "an enemy or foe (एक दुश्मन या शत्रु)",
+      "a distant acquaintance (एक दूर का परिचित)",
+      "friend who accompanies you (साथी)",
+      "someone who works alone (कोई अकेला काम करता है)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Contained",
+    "correct": "held within (समाहित)",
+    "options": [
+      "spread out (फैला हुआ)",
+      "released (मुक्त)",
+      "held within (समाहित)",
+      "overflowing (छलक रहा है)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Devised",
+    "correct": "planned or invented (योजना बनाई)",
+    "options": [
+      "destroyed or broken (नष्ट या टूटा हुआ)",
+      "followed instructions (निर्देशों का पालन किया)",
+      "planned or invented (योजना बनाई)",
+      "forgotten (भूला हुआ)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Distraction",
+    "correct": "something that takes attention away (ध्यान भटकाना)",
+    "options": [
+      "something that helps focus (ध्यान केंद्रित करने में मदद करने वाला)",
+      "a clear goal (एक स्पष्ट लक्ष्य)",
+      "something that takes attention away (ध्यान भटकाना)",
+      "a source of concentration (एकाग्रता का स्रोत)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Dull",
+    "correct": "not bright or shiny (फीका)",
+    "options": [
+      "bright and vibrant (उज्ज्वल और जीवंत)",
+      "shimmering and sparkling (चमकदार और जगमगाता)",
+      "not bright or shiny (फीका)",
+      "very interesting (बहुत दिलचस्प)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Essence",
+    "correct": "the basic nature of something (सार/तत्व)",
+    "options": [
+      "an external appearance (एक बाहरी उपस्थिति)",
+      "a minor detail (एक छोटी सी बात)",
+      "the basic nature of something (सार/तत्व)",
+      "a superficial aspect (एक सतही पहलू)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Exploded",
+    "correct": "burst suddenly (फट गया)",
+    "options": [
+      "contracted slowly (धीरे-धीरे सिकुड़ गया)",
+      "burst suddenly (फट गया)",
+      "remained intact (अक्षुण्ण रहा)",
+      "deflated (हवा निकल गई)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Extraordinary",
+    "correct": "very special or unusual (असाधारण)",
+    "options": [
+      "common and ordinary (सामान्य और साधारण)",
+      "very special or unusual (असाधारण)",
+      "boring and predictable (उबाऊ और अनुमानित)",
+      "standard or typical (मानक या विशिष्ट)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Faded",
+    "correct": "lost color or brightness (मुरझाया हुआ)",
+    "options": [
+      "became more vibrant (अधिक जीवंत हो गया)",
+      "lost color or brightness (मुरझाया हुआ)",
+      "intensified in shade (छाया में तीव्र हुआ)",
+      "remained unchanged (अपरिवर्तित रहा)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Flourish",
+    "correct": "to grow well and be successful (फलना-फूलना)",
+    "options": [
+      "to decline or wither (गिरना या मुरझाना)",
+      "to struggle (संघर्ष करना)",
+      "to grow well and be successful (फलना-फूलना)",
+      "to remain stagnant (स्थिर रहना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Fragile",
+    "correct": "easily broken (नाजुक)",
+    "options": [
+      "strong and durable (मजबूत और टिकाऊ)",
+      "easily broken (नाजुक)",
+      "flexible and resilient (लचीला और लचीला)",
+      "heavy and solid (भारी और ठोस)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Guardian",
+    "correct": "protector (संरक्षक)",
+    "options": [
+      "an attacker (एक हमलावर)",
+      "a betrayer (एक धोखेबाज)",
+      "protector (संरक्षक)",
+      "a neutral party (एक तटस्थ पक्ष)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Greenhouse",
+    "correct": "glass house for growing plants (हरित गृह)",
+    "options": [
+      "a cold storage unit (एक ठंडा भंडारण इकाई)",
+      "a traditional house (एक पारंपरिक घर)",
+      "glass house for growing plants (हरित गृह)",
+      "an outdoor garden (एक बाहरी बगीचा)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Harmony",
+    "correct": "things working well together (सामंजस्य)",
+    "options": [
+      "conflict or disagreement (संघर्ष या असहमति)",
+      "disorder (अव्यवस्था)",
+      "things working well together (सामंजस्य)",
+      "separation (अलगाव)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Hoarded",
+    "correct": "collected and stored away (जमा किया)",
+    "options": [
+      "distributed widely (व्यापक रूप से वितरित)",
+      "wasted or spent freely (बर्बाद या स्वतंत्र रूप से खर्च किया)",
+      "collected and stored away (जमा किया)",
+      "shared generously (उदारता से साझा किया)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Inherited",
+    "correct": "received from family (विरासत में मिला)",
+    "options": [
+      "bought or purchased (खरीदा गया)",
+      "earned through hard work (कड़ी मेहनत से कमाया गया)",
+      "received from family (विरासत में मिला)",
+      "created or built (बनाया या निर्मित)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Investigation",
+    "correct": "careful search for information (जांच)",
+    "options": [
+      "a casual observation (एक आकस्मिक अवलोकन)",
+      "a quick glance (एक सरसरी नज़र)",
+      "careful search for information (जांच)",
+      "a sudden discovery (एक अचानक खोज)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Journal",
+    "correct": "a book for writing personal thoughts (डायरी/पत्रिका)",
+    "options": [
+      "a textbook (एक पाठ्यपुस्तक)",
+      "a newspaper (एक अखबार)",
+      "a book for writing personal thoughts (डायरी/पत्रिका)",
+      "a recipe book (एक रेसिपी बुक)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Liberated",
+    "correct": "set free (मुक्त किया गया)",
+    "options": [
+      "imprisoned (कैद)",
+      "controlled (नियंत्रित)",
+      "set free (मुक्त किया गया)",
+      "restricted (प्रतिबंधित)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Lifeless",
+    "correct": "without life or energy (निर्जीव)",
+    "options": [
+      "full of vitality (जीवन शक्ति से भरा हुआ)",
+      "energetic (ऊर्जावान)",
+      "without life or energy (निर्जीव)",
+      "growing rapidly (तेजी से बढ़ रहा है)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Melodic",
+    "correct": "sweet sounding (मधुर)",
+    "options": [
+      "harsh and dissonant (कठोर और असंगत)",
+      "sweet sounding (मधुर)",
+      "noisy and chaotic (शोरगुल और अराजक)",
+      "unpleasant (अप्रिय)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Muffled",
+    "correct": "quiet and unclear (दबी हुई)",
+    "options": [
+      "loud and clear (जोर से और स्पष्ट)",
+      "quiet and unclear (दबी हुई)",
+      "sharp and distinct (तेज और विशिष्ट)",
+      "resonant (गुंजयमान)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Mystery",
+    "correct": "something unknown or secret (रहस्य)",
+    "options": [
+      "a clear fact (एक स्पष्ट तथ्य)",
+      "a solved puzzle (एक हल की हुई पहेली)",
+      "something unknown or secret (रहस्य)",
+      "an open secret (एक खुला रहस्य)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Pleaded",
+    "correct": "begged or requested earnestly (विनती की)",
+    "options": [
+      "demanded forcefully (जोर से मांग की)",
+      "begged or requested earnestly (विनती की)",
+      "ordered sternly (सख्ती से आदेश दिया)",
+      "refused politely (विनम्रता से मना कर दिया)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Possessed",
+    "correct": "owned or controlled (अधिकार में रखा)",
+    "options": [
+      "given away (दे दिया)",
+      "lacked or was without (कमी थी या बिना था)",
+      "owned or controlled (अधिकार में रखा)",
+      "lost (खो गया)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Pulsed",
+    "correct": "beat rhythmically (धड़का)",
+    "options": [
+      "remained still (स्थिर रहा)",
+      "beat rhythmically (धड़का)",
+      "stopped moving (चलना बंद कर दिया)",
+      "vibrated randomly (बेतरतीब ढंग से कंपन किया)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Renewed",
+    "correct": "made fresh again (नवीकृत)",
+    "options": [
+      "made old again (फिर से पुराना कर दिया)",
+      "made fresh again (नवीकृत)",
+      "destroyed (नष्ट कर दिया)",
+      "left as is (जैसा है वैसा ही छोड़ दिया)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Rustled",
+    "correct": "made a soft sound (सरसराया)",
+    "options": [
+      "made a loud noise (तेज आवाज की)",
+      "remained silent (शांत रहा)",
+      "made a soft sound (सरसराया)",
+      "cracked loudly (जोर से चटका)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Serenity",
+    "correct": "peacefulness (शांति)",
+    "options": [
+      "chaos and disorder (अराजकता और अव्यवस्था)",
+      "peacefulness (शांति)",
+      "agitation (आंदोलन)",
+      "excitement (उत्तेजना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Shimmering",
+    "correct": "shining with a soft light (चमकता हुआ)",
+    "options": [
+      "dull and dark (फीका और अंधेरा)",
+      "shining with a soft light (चमकता हुआ)",
+      "not reflecting light (प्रकाश को प्रतिबिंबित नहीं करता)",
+      "constantly changing color (लगातार रंग बदल रहा है)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Sparkled",
+    "correct": "shone brightly (चमके)",
+    "options": [
+      "became dull (फीका पड़ गया)",
+      "shone brightly (चमके)",
+      "darkened (अंधेरा हो गया)",
+      "disappeared (गायब हो गया)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Symphony",
+    "correct": "beautiful music played together (संगीत समारोह)",
+    "options": [
+      "a single instrument playing (एक एकल वाद्य यंत्र बज रहा है)",
+      "a discordant noise (एक बेसुरी आवाज)",
+      "beautiful music played together (संगीत समारोह)",
+      "a silent performance (एक मूक प्रदर्शन)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Trembled",
+    "correct": "shook with fear or excitement (कांपे)",
+    "options": [
+      "stood still (स्थिर खड़ा रहा)",
+      "shook with fear or excitement (कांपे)",
+      "remained calm (शांत रहा)",
+      "moved smoothly (सुचारू रूप से चला)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Trapped",
+    "correct": "caught and unable to escape (फंसा हुआ)",
+    "options": [
+      "free to move (चलने के लिए स्वतंत्र)",
+      "caught and unable to escape (फंसा हुआ)",
+      "released (रिहा)",
+      "hiding (छिपा हुआ)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Vibrancy",
+    "correct": "brightness and energy (जीवंतता)",
+    "options": [
+      "dullness (फीकापन)",
+      "lack of energy (ऊर्जा की कमी)",
+      "brightness and energy (जीवंतता)",
+      "calmness (शांति)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Vibrant",
+    "correct": "full of life and color (जीवंत)",
+    "options": [
+      "dull and lifeless (फीका और निर्जीव)",
+      "full of life and color (जीवंत)",
+      "pale and weak (पीला और कमजोर)",
+      "monochromatic (एक रंग का)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Violet",
+    "correct": "purple color (बैंगनी)",
+    "options": [
+      "red color (लाल रंग)",
+      "blue color (नीला रंग)",
+      "purple color (बैंगनी)",
+      "green color (हरा रंग)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Whispered",
+    "correct": "spoke very softly (फुसफुसाया)",
+    "options": [
+      "shouted loudly (जोर से चिल्लाया)",
+      "spoke very softly (फुसफुसाया)",
+      "remained silent (शांत रहा)",
+      "sang loudly (जोर से गाया)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Wisdom",
+    "correct": "knowledge and good judgment (बुद्धिमत्ता)",
+    "options": [
+      "lack of understanding (समझ की कमी)",
+      "folly or foolishness (मूर्खता या नासमझी)",
+      "knowledge and good judgment (बुद्धिमत्ता)",
+      "ignorance (अज्ञान)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Heart raced",
+    "correct": "to be very excited or scared (दिल तेज़ी से धड़कना)",
+    "options": [
+      "to feel calm and relaxed (शांत और आरामदायक महसूस करना)",
+      "to be very excited or scared (दिल तेज़ी से धड़कना)",
+      "to have a slow heartbeat (धीमी धड़कन होना)",
+      "to feel indifferent (उदासीन महसूस करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Eyes lit up",
+    "correct": "to become excited or interested (आंखें चमकना)",
+    "options": [
+      "to feel sad or disappointed (दुखी या निराश महसूस करना)",
+      "to close one's eyes (अपनी आँखें बंद करना)",
+      "to become excited or interested (आंखें चमकना)",
+      "to show no emotion (कोई भावना नहीं दिखाना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Made a difficult decision",
+    "correct": "chose something that was hard to decide (कठिन निर्णय लिया)",
+    "options": [
+      "made an easy choice (एक आसान विकल्प चुना)",
+      "avoided making a choice (विकल्प बनाने से बचा)",
+      "chose something that was hard to decide (कठिन निर्णय लिया)",
+      "made a quick decision without thought (बिना सोचे-समझे एक त्वरित निर्णय लिया)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Snuck into",
+    "correct": "to enter secretly (चुपके से घुसना)",
+    "options": [
+      "to enter openly (खुलेआम प्रवेश करना)",
+      "to leave quietly (चुपचाप निकल जाना)",
+      "to enter secretly (चुपके से घुसना)",
+      "to be discovered entering (प्रवेश करते हुए पकड़ा जाना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Melted away",
+    "correct": "disappeared gradually (पिघल गया)",
+    "options": [
+      "appeared suddenly (अचानक प्रकट हुआ)",
+      "solidified (ठोस हो गया)",
+      "disappeared gradually (पिघल गया)",
+      "became stronger (मजबूत हो गया)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Explosion of whispers",
+    "correct": "many soft voices at once (फुसफुसाहट का विस्फोट)",
+    "options": [
+      "a sudden loud sound (एक अचानक तेज आवाज)",
+      "complete silence (पूर्ण शांति)",
+      "many soft voices at once (फुसफुसाहट का विस्फोट)",
+      "a single clear voice (एक अकेली स्पष्ट आवाज)"
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 3
+  },
+  {
+    "question": "Dancing colors",
+    "correct": "colors moving beautifully (नाचते रंग)",
+    "options": [
+      "static and dull colors (स्थिर और फीके रंग)",
+      "colors moving beautifully (नाचते रंग)",
+      "colors fading away (रंग फीके पड़ रहे हैं)",
+      "colors clashing harshly (रंग बुरी तरह से टकरा रहे हैं)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  },
+  {
+    "question": "Shower of rainbow sparks",
+    "correct": "colorful sparks falling like rain (इंद्रधनुषी चिंगारियों की बारिश)",
+    "options": [
+      "a single bright flash (एकल तेज चमक)",
+      "dark and colorless drops (गहरे और रंगहीन बूंदें)",
+      "colorful sparks falling like rain (इंद्रधनुषी चिंगारियों की बारिश)",
+      "a steady stream of water (पानी की एक स्थिर धारा)"
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 3
+  },
+  {
+    "question": "Magical realism",
+    "correct": "mixing magic with real life (जादुई यथार्थवाद)",
+    "options": [
+      "pure fantasy (शुद्ध कल्पना)",
+      "mixing magic with real life (जादुई यथार्थवाद)",
+      "a strict adherence to reality (यथार्थवाद का कड़ा पालन)",
+      "a purely scientific concept (एक विशुद्ध वैज्ञानिक अवधारणा)"
+    ],
+    "difficulty": "hard",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 3
+  },
+  {
+    "question": "Heart broke",
+    "correct": "to feel very sad (दिल टूटना)",
+    "options": [
+      "to feel immense joy (अत्यधिक खुशी महसूस करना)",
+      "to feel very sad (दिल टूटना)",
+      "to feel angry (गुस्सा महसूस करना)",
+      "to feel confused (भ्रमित महसूस करना)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Courage to help",
+    "correct": "bravery to assist others (मदद करने का साहस)",
+    "options": [
+      "fear of assisting others (दूसरों की सहायता करने का डर)",
+      "reluctance to offer aid (सहायता देने में अनिच्छा)",
+      "bravery to assist others (मदद करने का साहस)",
+      "indifference towards others' needs (दूसरों की ज़रूरतों के प्रति उदासीनता)"
+    ],
+    "difficulty": "easy",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 1
+  },
+  {
+    "question": "Embrace uniqueness",
+    "correct": "to accept what makes you special (अनूठेपन को अपनाना)",
+    "options": [
+      "to conform to others (दूसरों के अनुरूप होना)",
+      "to hide one's individuality (अपनी विशिष्टता छिपाना)",
+      "to accept what makes you special (अनूठेपन को अपनाना)",
+      "to reject differences (मतभेदों को अस्वीकार करना)"
+    ],
+    "difficulty": "medium",
+    "questionType": "mcq",
+    "topic": "anaya_homework",
+    "complexity_score": 2
+  }
+]

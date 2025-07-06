@@ -1,0 +1,31 @@
+{
+  "short_name": "Fluence Quiz",
+  "name": "Fluence Quiz - Interactive Learning",
+  "description": "Test your knowledge with interactive quizzes",
+  "icons": [
+    {
+      "src": "fluence-favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "fluence-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "fluence-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#7c3aed",
+  "background_color": "#1e1b4b",
+  "orientation": "portrait",
+  "categories": ["education", "games"],
+  "lang": "en"
+}
