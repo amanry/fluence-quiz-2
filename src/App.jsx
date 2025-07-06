@@ -13,8 +13,6 @@ const HindiEnglishQuiz = () => {
   const [showResult, setShowResult] = useState(false);
   const [timeLeft, setTimeLeft] = useState(60);
   const [isCorrect, setIsCorrect] = useState(false);
-  const [musicEnabled, setMusicEnabled] = useState(true);
-  const [sfxEnabled, setSfxEnabled] = useState(true);
   const [playerName, setPlayerName] = useState('');
   const [lives, setLives] = useState(3);
   const [powerUps, setPowerUps] = useState({ skipQuestion: 2, extraTime: 2, fiftyFifty: 2 });
@@ -23,10 +21,6 @@ const HindiEnglishQuiz = () => {
   // Text-to-Speech states
   const [voice, setVoice] = useState(null);
   const [voices, setVoices] = useState([]);
-  const [pitch, setPitch] = useState(1);
-  const [rate, setRate] = useState(1);
-  const [volume, setVolume] = useState(1);
-  const [isPaused, setIsPaused] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   
   // New states for the requested features
@@ -35,8 +29,6 @@ const HindiEnglishQuiz = () => {
   
   // Track if this is a student-specific quiz link
   const [isStudentQuiz, setIsStudentQuiz] = useState(false);
-  // Track if we're in student quiz mode (after entering student name)
-  const [studentQuizMode, setStudentQuizMode] = useState(false);
   
   // Analytics tracking for AI-driven learning
   const [userPerformance, setUserPerformance] = useState({
@@ -62,7 +54,6 @@ const HindiEnglishQuiz = () => {
   });
   
   const timerRef = useRef(null);
-  const backgroundMusicRef = useRef(null);
   const utteranceRef = useRef(null);
 
   // Add error state for question loading
@@ -111,7 +102,6 @@ const HindiEnglishQuiz = () => {
     
     if (finalStudent) {
       setIsStudentQuiz(true);
-      setStudentQuizMode(true);
       
       // Update URL if we detected a student by name
       if (detectedStudent && !student) {
@@ -161,13 +151,13 @@ const HindiEnglishQuiz = () => {
     };
   }, [playerName]); // Add playerName as dependency to re-run when name changes
 
-  // Fix options useEffect to only shuffle when currentQuestion changes
+  // Fix options useEffect to only shuffle when currentQuestion changes and questions are loaded
   useEffect(() => {
     if (questions.length > 0 && currentQuestion < questions.length) {
       const options = [...questions[currentQuestion].options];
       setCurrentOptions(options.sort(() => Math.random() - 0.5));
     }
-  }, [questions, currentQuestion]); // Depend on questions and currentQuestion
+  }, [currentQuestion, questions]); // Include questions dependency
 
   // Update speak function to accept rate and auto-select voice - wrapped in useCallback
   const speak = useCallback((text, customRate = 1) => {
@@ -182,23 +172,91 @@ const HindiEnglishQuiz = () => {
       utter.lang = selectedVoice?.lang || 'en-US';
       utter.onstart = () => setIsSpeaking(true);
       utter.onend = () => setIsSpeaking(false);
-      utter.onpause = () => setIsPaused(true);
-      utter.onresume = () => setIsPaused(false);
       utteranceRef.current = utter;
       window.speechSynthesis.speak(utter);
     }
   }, [voices]);
 
-  // Auto-speak when question changes - use ref to avoid infinite loops
-  const speakRef = useRef(speak);
-  speakRef.current = speak;
+  // Define functions to avoid circular dependencies
+  const endGame = useCallback(() => {
+    setGameState('results');
+    
+    // Update localStorage with new high scores
+    if (score > highestScore) {
+      setHighestScore(score);
+      localStorage.setItem('highestScore', score.toString());
+    }
+    if (maxStreak > highestStreak) {
+      setHighestStreak(maxStreak);
+      localStorage.setItem('highestStreak', maxStreak.toString());
+    }
+    
+    // Save user performance
+    localStorage.setItem('userPerformance', JSON.stringify(userPerformance));
+    
+    // Clear timer
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+    }
+  }, [score, highestScore, maxStreak, highestStreak, userPerformance]);
 
-  // Fix speak useEffect to only speak when currentQuestion changes
+  const nextQuestion = useCallback(() => {
+    if (currentQuestion < questions.length - 1) {
+      setCurrentQuestion(prev => prev + 1);
+      setSelectedAnswer('');
+      setShowResult(false);
+      setTimeLeft(60);
+    } else {
+      endGame();
+    }
+  }, [currentQuestion, questions.length, endGame]);
+
+  // Define handleTimeUp function before using it in useEffect
+  const handleTimeUp = useCallback(() => {
+    if (gameState === 'playing' && !showResult) {
+      setSelectedAnswer('');
+      setIsCorrect(false);
+      setShowResult(true);
+      setLives(prev => prev - 1);
+      
+      // Update user performance tracking
+      const currentQ = questions[currentQuestion];
+      if (currentQ) {
+        setUserPerformance(prev => ({
+          ...prev,
+          totalQuestions: prev.totalQuestions + 1,
+          incorrectAnswers: prev.incorrectAnswers + 1,
+          questionHistory: [...prev.questionHistory, {
+            question: currentQ.question,
+            userAnswer: 'Time Up',
+            correctAnswer: currentQ.correct,
+            isCorrect: false,
+            timeTaken: 60 - timeLeft,
+            difficulty: currentQ.difficulty || 'medium'
+          }],
+          weakAreas: {
+            ...prev.weakAreas,
+            [currentQ.topic || 'general']: (prev.weakAreas[currentQ.topic || 'general'] || 0) + 1
+          }
+        }));
+      }
+      
+      setTimeout(() => {
+        if (lives - 1 <= 0) {
+          endGame();
+        } else {
+          nextQuestion();
+        }
+      }, 2000);
+    }
+  }, [gameState, showResult, questions, currentQuestion, timeLeft, lives, endGame, nextQuestion]);
+
+  // Auto-speak when question changes
   useEffect(() => {
     if (questions.length > 0 && currentQuestion < questions.length && gameState === 'playing') {
-      speakRef.current(questions[currentQuestion].question, 1);
+      speak(questions[currentQuestion].question, 1);
     }
-  }, [currentQuestion, gameState]); // Only depend on currentQuestion and gameState
+  }, [currentQuestion, gameState, questions, speak]);
 
   // Timer effect
   useEffect(() => {
@@ -215,44 +273,7 @@ const HindiEnglishQuiz = () => {
         clearInterval(timerRef.current);
       }
     };
-  }, [gameState, timeLeft]);
-
-  const handleTimeUp = () => {
-    if (gameState === 'playing' && !showResult) {
-      setSelectedAnswer('');
-      setIsCorrect(false);
-      setShowResult(true);
-      setLives(prev => prev - 1);
-      
-      // Update user performance tracking
-      const currentQ = questions[currentQuestion];
-      setUserPerformance(prev => ({
-        ...prev,
-        totalQuestions: prev.totalQuestions + 1,
-        incorrectAnswers: prev.incorrectAnswers + 1,
-        questionHistory: [...prev.questionHistory, {
-          question: currentQ.question,
-          userAnswer: 'Time Up',
-          correctAnswer: currentQ.correct,
-          isCorrect: false,
-          timeTaken: 60 - timeLeft,
-          difficulty: currentQ.difficulty || 'medium'
-        }],
-        weakAreas: {
-          ...prev.weakAreas,
-          [currentQ.topic || 'general']: (prev.weakAreas[currentQ.topic || 'general'] || 0) + 1
-        }
-      }));
-      
-      setTimeout(() => {
-        if (lives - 1 <= 0) {
-          endGame();
-        } else {
-          nextQuestion();
-        }
-      }, 2000);
-    }
-  };
+  }, [gameState, timeLeft, handleTimeUp]);
 
   const handleAnswerSelect = (option) => {
     if (showResult) return;
@@ -311,17 +332,6 @@ const HindiEnglishQuiz = () => {
     }, 2000);
   };
 
-  const nextQuestion = () => {
-    if (currentQuestion < questions.length - 1) {
-      setCurrentQuestion(prev => prev + 1);
-      setSelectedAnswer('');
-      setShowResult(false);
-      setTimeLeft(60);
-    } else {
-      endGame();
-    }
-  };
-
   const generateInsights = () => {
     const totalQuestions = userPerformance.totalQuestions;
     const accuracy = totalQuestions > 0 ? (userPerformance.correctAnswers / totalQuestions * 100).toFixed(1) : 0;
@@ -363,53 +373,9 @@ const HindiEnglishQuiz = () => {
     return insights;
   };
 
-  const generateAnalyticsReport = () => {
-    const totalQuestions = userPerformance.totalQuestions;
-    const accuracy = totalQuestions > 0 ? (userPerformance.correctAnswers / totalQuestions * 100).toFixed(1) : 0;
-    
-    const report = {
-      overview: {
-        totalQuestions,
-        accuracy: `${accuracy}%`,
-        bestStreak: maxStreak,
-        currentScore: score
-      },
-      strengths: Object.entries(userPerformance.strongAreas)
-        .sort(([,a], [,b]) => b - a)
-        .slice(0, 5)
-        .map(([topic, count]) => ({ topic, count })),
-      improvements: Object.entries(userPerformance.weakAreas)
-        .sort(([,a], [,b]) => b - a)
-        .slice(0, 5)
-        .map(([topic, count]) => ({ topic, count })),
-      difficultyBreakdown: userPerformance.difficultyStats,
-      recentPerformance: userPerformance.questionHistory.slice(-10)
-    };
-    
-    return report;
-  };
 
-  const endGame = () => {
-    setGameState('results');
-    
-    // Update localStorage with new high scores
-    if (score > highestScore) {
-      setHighestScore(score);
-      localStorage.setItem('highestScore', score.toString());
-    }
-    if (maxStreak > highestStreak) {
-      setHighestStreak(maxStreak);
-      localStorage.setItem('highestStreak', maxStreak.toString());
-    }
-    
-    // Save user performance
-    localStorage.setItem('userPerformance', JSON.stringify(userPerformance));
-    
-    // Clear timer
-    if (timerRef.current) {
-      clearInterval(timerRef.current);
-    }
-  };
+
+
 
   const startGame = () => {
     if (playerName.trim()) {
@@ -437,7 +403,6 @@ const HindiEnglishQuiz = () => {
     setSelectedAnswer('');
     setShowResult(false);
     setPowerUps({ skipQuestion: 2, extraTime: 2, fiftyFifty: 2 });
-    setStudentQuizMode(false);
     setIsStudentQuiz(false);
     
     // Clear URL parameters
@@ -448,7 +413,6 @@ const HindiEnglishQuiz = () => {
 
   const startStudentQuiz = () => {
     if (playerName.trim()) {
-      setStudentQuizMode(true);
       startGame();
     }
   };
@@ -459,20 +423,25 @@ const HindiEnglishQuiz = () => {
       setShowPowerUpEffect(type);
       
       switch (type) {
-        case 'skipQuestion':
+        case 'skipQuestion': {
           setTimeout(() => {
             nextQuestion();
           }, 1000);
           break;
-        case 'extraTime':
+        }
+        case 'extraTime': {
           setTimeLeft(prev => Math.min(prev + 30, 60));
           break;
-        case 'fiftyFifty':
+        }
+        case 'fiftyFifty': {
           // Remove two incorrect options
           const currentQ = questions[currentQuestion];
           const incorrectOptions = currentOptions.filter(opt => opt !== currentQ.correct);
           const optionsToRemove = incorrectOptions.slice(0, 2);
           setCurrentOptions(prev => prev.filter(opt => !optionsToRemove.includes(opt)));
+          break;
+        }
+        default:
           break;
       }
       
