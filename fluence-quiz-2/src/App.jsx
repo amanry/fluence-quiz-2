@@ -818,6 +818,30 @@ const HindiEnglishQuiz = () => {
     }
   }
 
+  // --- Audio helpers -----------------------------------------------------------
+  // Simple stubs so the app doesn\'t crash if the audio asset is missing.
+  // Replace the `src` values with real sound files placed in /public/audio if desired.
+  function playSound(src) {
+    if (typeof Audio === 'undefined') return; // SSR / unsupported
+    try {
+      const audio = new Audio(src);
+      // Play in a fire-and-forget way; ignore promise rejection (autoplay blocks etc.)
+      audio.play().catch(() => {});
+    } catch {
+      /* no-op */
+    }
+  }
+
+  function playCorrectSound() {
+    // tiny base64-encoded beep (~0.05 s) as a default fallback
+    playSound('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQgAAAAgAAAA');
+  }
+
+  function playIncorrectSound() {
+    playSound('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQgAAAAgAAAA');
+  }
+  // ---------------------------------------------------------------------------
+
   if (questionLoadError) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-600 via-blue-600 to-indigo-800 flex items-center justify-center p-4">
