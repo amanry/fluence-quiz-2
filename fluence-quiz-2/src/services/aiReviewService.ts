@@ -1,5 +1,4 @@
 import { Question } from '../types/question';
-import Anthropic from '@anthropic-ai/sdk';
 
 interface AIReviewResponse {
   feedback: string;
@@ -8,13 +7,13 @@ interface AIReviewResponse {
 }
 
 class AIReviewService {
-  private anthropic: Anthropic;
+  private anthropic: any;
   private model: string;
 
   constructor() {
-    this.anthropic = new Anthropic({
-      apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY
-    });
+    // NOTE: AI review disabled in static builds until a secure backend is used.
+    this.anthropic = null;
+
     // Using claude-3-haiku-20240307 as it's the most cost-effective model
     this.model = 'claude-3-haiku-20240307';
   }
@@ -37,6 +36,15 @@ Provide a concise review in this JSON format:
 
   async reviewAnswer(question: Question, userAnswer: string): Promise<AIReviewResponse> {
     try {
+      if (!this.anthropic) {
+        // Fallback result in browser – just echo basic feedback
+        return {
+          feedback: 'AI feedback is disabled in this demo build.',
+          hints: [],
+          confidenceScore: 0
+        };
+      }
+
       const prompt = await this.generatePrompt(question, userAnswer);
       
       const message = await this.anthropic.messages.create({
@@ -64,6 +72,10 @@ Provide a concise review in this JSON format:
 
   async generatePerformanceReport(questions: Question[], answers: Record<string, string>): Promise<string> {
     try {
+      if (!this.anthropic) {
+        return 'AI performance report is disabled in this demo build.';
+      }
+
       const questionsAndAnswers = questions.map(q => ({
         question: q.question,
         correct: q.correct,
